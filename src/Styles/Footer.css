@@ -23,6 +23,7 @@
 }
 .arr p { 
     margin-top: 10px; 
+    color: white;
 }
 
 @media (max-width: 450px) {

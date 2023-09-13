@@ -1,7 +1,7 @@
 .banner-commun {
     margin-top: 30px;
     height: 223px;
-    color: var(--colorWhite);
+    color: white;
     border-radius: 25px;
     box-shadow: 0px 5px 15px rgb(66, 58, 58);
 }

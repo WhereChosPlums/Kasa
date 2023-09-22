@@ -14,8 +14,8 @@ const Cards = () => {
 
                 // affiche la fiche logement sur la page d'accueil
                 return (
-                    <div className="fiche-Logement" key={id} >
-                        <Link to={`/Logement/`}>
+                    <div className="fiche-Logement" key={id}>
+                        <Link to={`/Logement/${id}`}>
                             <img src={cover} alt={title} />
                             <h3>{title}</h3>
                         </Link>

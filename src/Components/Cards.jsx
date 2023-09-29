@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import fiches from "../Data/Logements.json"
 import "../Styles/Cards.css"
 
-const arrayStars = [1, 2, 3, 4, 5]
+
 
 const Cards = () => {
     return (

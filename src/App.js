@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Card from './Pages/Card';
 
+
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/ >} />
           <Route path='/About' element={<About/ >} />
-          <Route path="/Card/:id" component={Card} />
+          <Route path="/Card/:id" element={<Card/>} />
          
         </Routes>
       </BrowserRouter>

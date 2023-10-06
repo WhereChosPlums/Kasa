@@ -4,10 +4,10 @@ import FlecheBas from "../Assets/FlecheBas.png"
 import "../Styles/Dropdown.css"
 
 function Dropdown({title, content}) {
-    // défini le collapse par défaut comme fermé
+    // défini le collapse par défaut comme fermer
     const [contentVisible, setContentVisible] = useState(false)
 
-    // à chaque clic sur le collapse, ca inverse la valeur pour le ouvert/fermé
+    // à chaque clic sur le collapse, ca inverse la valeur pour  ouvert/fermer
     const affContent = () => { 
         setContentVisible(!contentVisible) // inverse la valeur actuelle
     }

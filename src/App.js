@@ -4,7 +4,6 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Card from './Pages/Card';
 
-
 function App() {
   return (
     <div className="App">

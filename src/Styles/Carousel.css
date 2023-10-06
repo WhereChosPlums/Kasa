@@ -33,7 +33,7 @@
     color: var(--colorWhite);
 }
 
-.classChevronGauche {
+.flechegauche {
     position: absolute;
     content: "";
     color: var(--colorWhite);
@@ -43,7 +43,7 @@
     left: 0;
 }
 
-.classChevronDroit {
+.flechedroite {
     position: absolute;
     content: "";
     inset: 0;
@@ -57,10 +57,10 @@
     .carousel { 
         height: 255px; 
     }
-    .classChevronGauche { 
+    .flechegauche { 
         height: 30px; 
     }
-    .classChevronDroit {
+    .flechedroite {
         height: 30px;
         left: calc(100% - 20px)
     }

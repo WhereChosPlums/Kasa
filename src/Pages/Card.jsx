@@ -6,6 +6,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Dropdown from "../Components/Dropdown";
 import Carousel from '../Components/Carousel'
+import Error404 from "../Pages/Error404"
 
 import "../Styles/Card.css"
 
@@ -24,6 +25,8 @@ function Card() {
     // cherche l'id dans le fichier logements.json
     const fiche = fiches.find(logement => logement.id === idLogement.id);
     console.log(fiche)
+
+    if (!fiche) return(<Error404 />)
 
     // récupère la liste des équipements
     const equipements = fiche && fiche.equipments ? fiche.equipments.map((element, index) => (
